@@ -1,0 +1,70 @@
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 50vh;
+  height: 30vh;
+  background-color:lightgray;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+/* Increment */
+.increment-icon {
+  background-color: lightgreen;
+}
+.increment-icon:hover {
+  background-color: lawngreen;
+}
+
+/* Decrement */
+.decrement-icon {
+  background-color: lightcoral;
+}
+.decrement-icon:hover {
+  background-color: tomato;
+}
+
+/* BOTH Increment and Decrement */
+.increment-icon,.decrement-icon {
+  color: white;
+  padding:10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+/* Reset Button */
+.reset-button {
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  background-color: tomato;
+  color: white;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.reset-button:hover {
+  outline: 2px solid tomato;
+  color: tomato;
+  background-color: transparent;
+  cursor: pointer;
+}
